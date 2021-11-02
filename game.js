@@ -1,4 +1,4 @@
-function main() {
+function start() {
     bear = new Bear(); //creates bear
     document.addEventListener("keydown", moveBear, false); //adds an event listener to the keypress event
 
@@ -12,8 +12,6 @@ function main() {
     updateBees() //called to move the bees
 
     lastStingTime = new Date(); //takes start time
-
-    
 
 }
 function Bear() {
